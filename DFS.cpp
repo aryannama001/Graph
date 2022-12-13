@@ -14,10 +14,10 @@ class Solution {
   public:
     vector<int> dfsOfGraph(int V, vector<int> adj[]) {
         int vis[V]={0};
-       vector<int> ans;
-         dfs(0,adj,ans,vis);
+        vector<int> ans;
+        dfs(0,adj,ans,vis);
 
-         return ans;
+        return ans;
     }
 };
 
