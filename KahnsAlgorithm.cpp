@@ -4,8 +4,7 @@ using namespace std;
 class Solution
 {
 	public:
-		vector<int> topoSort(int V, vector<int> adj[]) 
-	{
+		vector<int> topoSort(int V, vector<int> adj[]) {
 	    int indegree[V]={0};
 	    
 	    for(int i=0;i<V;i++)
